@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "build": "npx swc ./webflow/language_switcher.js -o ./dist/language_switcher.min.js --config-file .swcrc",
+    "build:new": "./compile.js"
+  },
+  "devDependencies": {
+    "@swc/cli": "^0.1.55",
+    "@swc/core": "^1.2.143",
+    "pathe": "^0.2.0",
+    "url": "^0.11.0"
+  }
+}
